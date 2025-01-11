@@ -11,14 +11,14 @@ const Getintouch = () => {
                     </p>
                     <div className="d-flex flex-column align-items-center mt-4">
                         <div className="d-flex align-items-center mb-3 flex-wrap">
-                            <i className="fa-solid fa-envelope fs-4 me-2"></i>
+                            <i className="fa-solid fa-envelope display-6 me-2"></i>
                             <span className="display-6 fw-bold">goltanish2@gmail.com</span>
                             <button className="btn btn-secondary btn-sm ms-3 mt-2 mt-sm-0" title="Copy to Clipboard">
                                 <i className="fa-regular fa-copy"></i>
                             </button>
                         </div>
                         <div className="d-flex align-items-center mb-3 flex-wrap">
-                            <i className="fa-solid fa-phone fs-4 me-2"></i>
+                            <i className="fa-solid fa-phone display-6 me-2"></i>
                             <span className="display-6 fw-bold">+91 1234567980</span>
                             <button className="btn btn-secondary btn-sm ms-3 mt-2 mt-sm-0" title="Copy to Clipboard">
                                 <i className="fa-regular fa-copy"></i>
