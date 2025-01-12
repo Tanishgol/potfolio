@@ -27,13 +27,13 @@ const Getintouch = () => {
                     </div>
                     <p className="mt-3 text-muted">You may also find me on these platforms!</p>
                     <div className="d-flex justify-content-center gap-4 flex-wrap">
-                        <a href="/" className="fs-4">
+                        <a href="https://github.com/Tanishgol" className="fs-4">
                             <i className="fa-brands fa-github"></i>
                         </a>
-                        <a href="/" className="fs-4">
+                        <a href="https://x.com/tanishgol" className="fs-4">
                             <i className="fa-brands fa-twitter"></i>
                         </a>
-                        <a href="/" className="fs-4">
+                        <a href="https://www.linkedin.com/in/tanish-gol-330a34284/" className="fs-4">
                             <i className="fa-brands fa-linkedin"></i>
                         </a>
                     </div>
