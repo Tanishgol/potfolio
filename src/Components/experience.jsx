@@ -10,15 +10,15 @@ const Experience = () => {
                         <button type="button" className="btn btn-secondary btn-lg px-4 py-2 shadow-sm mb-3">
                             Experience
                         </button>
-                        <h2 className="experience-description fw-bold">
+                        <h2 className="experience-description fw-bold mb-5">
                             Here is a quick summary of my most recent experiences:
                         </h2>
                     </div>
                     <div className="row bg-tertiary align-items-center border rounded shadow-sm py-5 px-3 mb-4">
-                        <div className="col-md-2 col-sm-12 col-12 col-4 text-center mb-3 mb-md-0">
-                            <img src={DreamSpotLogo} alt="DreamSpot IT Academy Logo" className="img-fluid" style={{ maxHeight: 80 }} />
+                        <div className="col-md-3 col-sm-12 col-12 col-4 text-center mb-3 mb-md-0">
+                            <img src={DreamSpotLogo} alt="DreamSpot IT Academy Logo" className="img-fluid" style={{ maxHeight: 100 }} />
                         </div>
-                        <div className="col-md-7 col-sm-12 col-12">
+                        <div className="col-md-6 col-sm-12 col-12">
                             <h3 className="experience-heading fw-bold">Full-Stack Web Developer Trainee</h3>
                             <ul>
                                 <li>
