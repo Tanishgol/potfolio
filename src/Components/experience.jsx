@@ -1,7 +1,5 @@
 import React from 'react';
-import UpWorkLogo from '../Assets/logo-upwork.5f1fcd5c.svg';
-import GreenApexLogo from '../Assets/logo-greenapex.f61a5e20.svg';
-import DotPixelLogo from '../Assets/logo-dotnpixel.11466e70.svg';
+import DreamSpotLogo from '../Assets/dreamSpot_logo.png';
 
 const Experience = () => {
     return (
@@ -17,61 +15,28 @@ const Experience = () => {
                         </h2>
                     </div>
                     <div className="row bg-tertiary align-items-center border rounded shadow-sm py-5 px-3 mb-4">
-                        <div className="col-md-2 col-sm-12 col-12 col-4 col-4 text-center mb-3 mb-md-0">
-                            <img src={UpWorkLogo} alt="Upwork Logo" className="img-fluid" style={{ maxHeight: 80 }} />
-                        </div>
-                        <div className="col-md-7 col-sm-12 col-12">
-                            <h3 className="experience-heading fw-bold">Independent Freelancer</h3>
-                            <ul>
-                                <li>
-                                    Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.
-                                </li>
-                                <li>
-                                    Technologies: React, Next.js, TypeScript, Express.js, PostgreSQL,
-                                    TailwindCSS, MUI, Firebase, Storybook, Cypress, and more.
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-md-3 text-md-end text-center">
-                            <p className="Exp-date fw-semibold text-muted">Nov 2021 - Present</p>
-                        </div>
-                    </div>
-                    <div className="row bg-tertiary align-items-center border rounded shadow-sm py-5 px-3 mb-4">
-                        <div className="col-md-2 col-sm-12 col-12 col-4 col-4 text-center mb-3 mb-md-0">
-                            <img src={GreenApexLogo} alt="GreenApex Logo" className="img-fluid" style={{ maxHeight: 80 }} />
-                        </div>
-                        <div className="col-md-7 col-sm-12 col-12">
-                            <h3 className="experience-heading fw-bold">Team Lead</h3>
-                            <ul>
-                                <li>Acted as team lead in different projects.</li>
-                                <li>
-                                    Brainstormed new ideas &amp; gathered requirements for internal
-                                    projects.
-                                </li>
-                                <li>
-                                    Designed architecture of different projects (frontend + backend).
-                                </li>
-                                <li>Worked on enterprise-level projects for a variety of clients.</li>
-                            </ul>
-                        </div>
-                        <div className="col-md-3 text-md-end text-center">
-                            <p className="Exp-date fw-semibold text-muted">Jul 2017 - Oct 2021</p>
-                        </div>
-                    </div>
-                    <div className="row bg-tertiary align-items-center border rounded shadow-sm py-5 px-3">
                         <div className="col-md-2 col-sm-12 col-12 col-4 text-center mb-3 mb-md-0">
-                            <img src={DotPixelLogo} alt="DotnPixel Logo" className="img-fluid" style={{ maxHeight: 80 }} />
+                            <img src={DreamSpotLogo} alt="DreamSpot IT Academy Logo" className="img-fluid" style={{ maxHeight: 80 }} />
                         </div>
                         <div className="col-md-7 col-sm-12 col-12">
-                            <h3 className="experience-heading fw-bold">Full Stack Developer</h3>
+                            <h3 className="experience-heading fw-bold">Full-Stack Web Developer Trainee</h3>
                             <ul>
-                                <li>Worked as a full stack developer (React).</li>
+                                <li>
+                                    Contributed to multiple projects, gaining practical insights into modern web development practices.
+                                </li>
+                                <li>
+                                    Acquired hands-on experience with key technologies, including <span className='fw-semibold'>HTML</span>, <span className='fw-semibold'>CSS</span>, <span className='fw-semibold'>JavaScript</span>, and <span className='fw-semibold'>Bootstrap 5</span>.
+                                </li>
+                                <li>
+                                    Currently learning <span className="fw-semibold">ReactJS</span> to enhance skills in modern front-end development.
+                                </li>
                             </ul>
                         </div>
                         <div className="col-md-3 text-md-end text-center">
-                            <p className="Exp-date fw-semibold text-muted">Dec 2015 - May 2017</p>
+                            <p className="Exp-date fw-semibold text-muted">May 2024 - Present</p>
                         </div>
                     </div>
+
                 </div>
             </section>
         </>
