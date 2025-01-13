@@ -7,7 +7,7 @@ const Devinfo = () => {
     return (
         <>
             <section id="developerinformation" className="DevInfo bg-light py-5">
-                <div className="container">
+                <div className="container py-5">
                     <div className="row custom-flex align-items-center">
                         <div className="col-12 col-lg-8 text-column d-flex flex-column justify-content-center">
                             <h1 className="info-heading text-center text-lg-start fs-1 mb-3">
