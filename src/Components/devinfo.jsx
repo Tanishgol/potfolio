@@ -1,4 +1,5 @@
 import React from 'react';
+import { BounceLoader } from 'react-spinners';
 import '../Styles/globle.css';
 import tanishimage from '../Assets/Tanish_passport.jpg';
 
@@ -29,7 +30,7 @@ const Devinfo = () => {
                                     <span className="fw-semibold">Rajkot, Gujarat</span>
                                 </div>
                                 <div className="info-availability d-flex align-items-center">
-                                    <i className="bi bi-circle-fill text-success me-2 blinking-text" />
+                                    <BounceLoader className='mx-2' color="rgba(15, 185, 129, 1)" size={16} />
                                     <span className="fw-semibold">Available for new projects</span>
                                 </div>
                             </div>

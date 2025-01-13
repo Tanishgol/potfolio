@@ -45,38 +45,38 @@ const Skills = () => {
                             <p className="Skills-Names mt-2 fw-semibold">Bootstrap</p>
                         </div>
                         <div className="col-6 col-md-4 col-lg-2 mb-4">
-                            <BiLogoTailwindCss className="display-1" style={{ color: "#06B6D4" }} />
-                            <p className="Skills-Names mt-2 fw-semibold">TailwindCSS</p>
+                            <BiLogoReact className="display-1" style={{ color: "#61DAFB" }} />
+                            <p className="Skills-Names mt-2 fw-semibold">React</p>
                         </div>
                         <div className="col-6 col-md-4 col-lg-2 mb-4">
-                            <BiLogoGit className="bi bi-git display-1" style={{ color: "#F05033" }} />
-                            <p className="Skills-Names mt-2 fw-semibold">Git</p>
+                            <BiLogoRedux className="display-1" style={{ color: "#764ABC" }} />
+                            <p className="Skills-Names mt-2 fw-semibold">Redux</p>
                         </div>
                     </div>
                     <div className="row text-center">
                         <div className="col-6 col-md-4 col-lg-2 mb-4">
-                            <BiLogoReact className="display-1" style={{ color: "#61DAFB" }} />
-                            <p className="Skills-Names mt-2 fw-semibold">React</p>
+                            <BiLogoTailwindCss className="display-1" style={{ color: "#06B6D4" }} />
+                            <p className="Skills-Names mt-2 fw-semibold">TailwindCSS</p>
                         </div>
                         <div className="col-6 col-md-4 col-lg-2 mb-4">
                             <BiLogoNodejs className="display-1" style={{ color: "#68A063" }} />
                             <p className="Skills-Names mt-2 fw-semibold">NodeJS</p>
                         </div>
                         <div className="col-6 col-md-4 col-lg-2 mb-4">
-                            <RiNextjsFill className="display-1" style={{ color: "#000000" }} />
-                            <p className="Skills-Names mt-2 fw-semibold">NextJS</p>
-                        </div>
-                        <div className="col-6 col-md-4 col-lg-2 mb-4">
                             <SiExpress className="display-1" style={{ color: "#026E00" }} />
                             <p className="Skills-Names mt-2 fw-semibold">ExpressJS</p>
                         </div>
                         <div className="col-6 col-md-4 col-lg-2 mb-4">
-                            <BiLogoRedux className="display-1" style={{ color: "#764ABC" }} />
-                            <p className="Skills-Names mt-2 fw-semibold">Redux</p>
-                        </div>
-                        <div className="col-6 col-md-4 col-lg-2 mb-4">
                             <DiMongodb className="display-1" style={{ color: "#47A248" }} />
                             <p className="Skills-Names mt-2 fw-semibold">MongoDB</p>
+                        </div>
+                        <div className="col-6 col-md-4 col-lg-2 mb-4">
+                            <RiNextjsFill className="display-1" style={{ color: "#000000" }} />
+                            <p className="Skills-Names mt-2 fw-semibold">NextJS</p>
+                        </div>
+                        <div className="col-6 col-md-4 col-lg-2 mb-4">
+                            <BiLogoGit className="bi bi-git display-1" style={{ color: "#F05033" }} />
+                            <p className="Skills-Names mt-2 fw-semibold">Git</p>
                         </div>
                     </div>
                 </div>
