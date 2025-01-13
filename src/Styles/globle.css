@@ -24,6 +24,29 @@
     box-shadow: -20px 20px 10px 8px rgb(121, 121, 121);
 }
 
+.link-underline {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-underline::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: all 0.3s ease-out;
+    transform: translateX(-50%);
+}
+
+.link-underline:hover::after {
+    width: 100%;
+}
+
+
 .flip-animation {
     display: inline-block;
     animation: flip360 2s linear infinite;

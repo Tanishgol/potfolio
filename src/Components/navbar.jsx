@@ -4,9 +4,16 @@ import '../Styles/globle.css';
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-light sticky-top bgblur">
+            <nav id="navbar-example" className="navbar navbar-expand-lg bg-light sticky-top bgblur" data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" tabIndex="0">
                 <div className="container">
-                    <a className="navbar-brand" href="/">
+                    <a className="navbar-brand" href="#developerinformation"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            document.getElementById('developerinformation').scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start',
+                            });
+                        }}>
                         <h3 className="text-dark">&#60;TG &#8260;&#62;</h3>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,16 +22,16 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse text-center fs-5" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item m-1 px-1 fw-semibold">
-                                <a className="nav-link active" aria-current="page" href="/">About</a>
+                                <a className="nav-link active" href="#about">About</a>
                             </li>
                             <li className="nav-item m-1 px-1 fw-semibold">
-                                <a className="nav-link" href="/">Work</a>
+                                <a className="nav-link" href="#work">Work</a>
                             </li>
                             <li className="nav-item m-1 px-1 fw-semibold">
-                                <a className="nav-link" href="/">Testimonials</a>
+                                <a className="nav-link" href="#testimonials">Testimonials</a>
                             </li>
                             <li className="nav-item m-1 px-1 fw-semibold">
-                                <a className="nav-link" href="/">Contact</a>
+                                <a className="nav-link" href="#contact">Contact</a>
                             </li>
                             <div className="border-start border-secondary border-3 ms-2 ps-2"></div>
                             <li className="nav-item m-1 px-1 fw-semibold">

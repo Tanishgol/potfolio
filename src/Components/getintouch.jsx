@@ -17,7 +17,7 @@ const Getintouch = () => {
     return (
         <>
             <Toaster position="top-right" reverseOrder={false} />
-            <section className="getintouch py-5 bg-light">
+            <section id="contact" className="getintouch py-5 m-5 bg-light">
                 <div className="container text-center">
                     <button className="btn btn-secondary btn-lg px-4 py-2 shadow-sm mb-3">Get in Touch</button>
                     <p className="fs-5 text-muted">

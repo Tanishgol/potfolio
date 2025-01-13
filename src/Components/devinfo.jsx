@@ -6,7 +6,7 @@ import tanishimage from '../Assets/Tanish_passport.jpg';
 const Devinfo = () => {
     return (
         <>
-            <section className="DevInfo bg-light py-5">
+            <section id="developerinformation" className="DevInfo bg-light py-5">
                 <div className="container">
                     <div className="row custom-flex align-items-center">
                         <div className="col-12 col-lg-8 text-column d-flex flex-column justify-content-center">

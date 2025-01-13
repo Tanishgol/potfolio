@@ -4,10 +4,10 @@ import Avater from '../Assets/avatar-eugen.png';
 const Testimonials = () => {
     return (
         <>
-            <section className="Testimonials py-5">
+            <section id="testimonials" className="Testimonials py-5">
                 <div className="container">
                     <div className="text-center mb-5">
-                        <button className="btn btn-secondary btn-lg px-4 py-2 shadow-sm mb-3">Testimonials</button>
+                        <button className="btn btn-secondary btn-lg mt-5 px-4 py-2 shadow-sm mb-3">Testimonials</button>
                         <h2 className="mt-3">Nice things people have said about me:</h2>
                     </div>
                     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">

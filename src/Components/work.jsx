@@ -5,10 +5,10 @@ import Project2 from '../Assets/Project-2.jpeg';
 const Work = () => {
     return (
         <>
-            <section className="Work py-5 bg-light">
+            <section id="work" className="Work py-5 bg-light">
                 <div className="container">
                     <div className="text-center mb-5">
-                        <button className="btn btn-secondary btn-lg px-4 py-2 shadow-sm mb-3">Work</button>
+                        <button className="btn btn-secondary btn-lg mt-5 px-4 py-2 shadow-sm mb-3">Work</button>
                         <h2 className="mt-3">Some of the noteworthy projects I have built:</h2>
                     </div>
                     <div className="row align-items-center mb-5 rounded-3 p-4 shadow">
