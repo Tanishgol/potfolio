@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-12 text-center">
                             <p className="Footer-Text mt-3">
-                                © 2024 | Designed 🎨 and coded 💻 with ❤️️ by Tanishgol
+                                © 2025 | Designed 🎨 and coded 💻 with ❤️️ by Tanishgol
                             </p>
                         </div>
                     </div>
