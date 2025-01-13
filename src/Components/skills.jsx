@@ -42,7 +42,7 @@ const Skills = () => {
                         </div>
                         <div className="col-6 col-md-4 col-lg-2 mb-4">
                             <FaBootstrap className="bi bi-bootstrap-fill display-1" style={{ color: "#7952B3" }} />
-                            <p className="Skills-Names mt-2 fw-semibold">Bootstrap</p>
+                            <p className="Skills-Names mt-2 fw-semibold">Bootstrap 5</p>
                         </div>
                         <div className="col-6 col-md-4 col-lg-2 mb-4">
                             <BiLogoReact className="display-1" style={{ color: "#61DAFB" }} />

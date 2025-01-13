@@ -21,13 +21,13 @@ const Experience = () => {
                         <div className="col-md-6 col-sm-12 col-12">
                             <h3 className="experience-heading fw-bold text-center">Full-Stack Web Developer Trainee</h3>
                             <ul>
-                                <li className='mb-2'>
+                                <li className='mb-2 text-justify'>
                                     Contributed to multiple projects, gaining practical insights into modern web development practices.
                                 </li>
-                                <li className='mb-2'>
+                                <li className='mb-2 text-justify'>
                                     Acquired hands-on experience with key technologies, including <span className='fw-semibold'>HTML</span>, <span className='fw-semibold'>CSS</span>, <span className='fw-semibold'>JavaScript</span>, and <span className='fw-semibold'>Bootstrap 5</span>.
                                 </li>
-                                <li>
+                                <li className='text-justify'>
                                     Currently learning <span className="fw-semibold">ReactJS</span> to enhance skills in modern front-end development.
                                 </li>
                             </ul>

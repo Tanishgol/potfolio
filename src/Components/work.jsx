@@ -17,7 +17,7 @@ const Work = () => {
                         </div>
                         <div className="col-lg-6">
                             <h3 className="fw-bold">Enhanced Invoice System</h3>
-                            <p>
+                            <p className='text-justify'>
                                 This project is a responsive Enhanced Invoice System designed to help users generate invoices by capturing customer and product details, calculating totals with tax, and generating a PDF version of the invoice.
                             </p>
                             <div className="d-flex flex-wrap gap-2">
@@ -37,7 +37,7 @@ const Work = () => {
                         </div>
                         <div className="col-lg-6 order-lg-1">
                             <h3 className="fw-bold">Expense-Manager</h3>
-                            <p>
+                            <p className='text-justify'>
                                 The Expense Management System is a comprehensive web application designed to help users track their income, expenses, and budgets effectively.
                             </p>
                             <div className="d-flex flex-wrap gap-2">

@@ -20,16 +20,16 @@ const Aboutme = () => {
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
                             <h2 className="mb-4 fw-bold text-dark">Curious about me? Here you have it:</h2>
-                            <p className="mb-3">
+                            <p className="mb-3 text-justify">
                                 I'm a passionate, self-proclaimed designer specializing in full-stack development with proficiency in <strong>HTML, CSS, Javascript, and Bootstrap</strong>. I love blending the technical and visual aspects of digital products to create impactful experiences. User experience, pixel-perfect design, and writing clear, readable, and high-performing code are my priorities.
                             </p>
-                            <p className="mb-3">
+                            <p className="mb-3 text-justify">
                                 Currently, I am currently training as a Full-Stack Developer at <a className="link-underline text-primary text-decoration-none fw-bold" href='https://www.linkedin.com/company/dreamspot-it-academy/posts/?feedView=all'>Dreamspot IT Academy</a>. Although new to the field, I'm eager to learn, take on new challenges, and master the latest technologies.
                             </p>
-                            <p className="mb-3">
+                            <p className="mb-3 text-justify">
                                 I'm a progressive thinker and enjoy working on products end-to-end, from ideation to development.
                             </p>
-                            <p className="mb-4">
+                            <p className="mb-4 text-justify">
                                 When I'm not in full-on developer mode, you can find me exploring Twitter, learning from early startups, or enjoying free time. Follow me on <a href="https://x.com/tanishgol" className="link-underline text-primary text-decoration-none fw-bold">Twitter</a>  for tech bites or check out my <a href="https://github.com/Tanishgol" className="link-underline text-primary text-decoration-none fw-bold">GitHub</a> for projects.
                             </p>
                             <p className="fw-bold mb-2">Quick facts about me:</p>
