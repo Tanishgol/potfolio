@@ -21,10 +21,11 @@ const Work = () => {
                                 This project is a responsive Enhanced Invoice System designed to help users generate invoices by capturing customer and product details, calculating totals with tax, and generating a PDF version of the invoice.
                             </p>
                             <div className="d-flex flex-wrap gap-2">
-                                <span className="badge bg-primary">HTML</span>
-                                <span className="badge bg-info">CSS</span>
-                                <span className="badge bg-success">Javascript</span>
-                                <span className="badge bg-warning text-dark">Bootstrap 5</span>
+                                <span className="badge" style={{ backgroundColor: "#E44D26", color: "#fff" }}>HTML</span>
+                                <span className="badge" style={{ backgroundColor: "#2965F1", color: "#fff" }}>CSS</span>
+                                <span className="badge" style={{ backgroundColor: "#F7DF1E", color: "#000" }}>JavaScript</span>
+                                <span className="badge" style={{ backgroundColor: "#7952B3", color: "#fff" }}>Bootstrap 5</span>
+                                <span className="badge" style={{ backgroundColor: "#D32F2F", color: "#fff" }}>jsPDF</span>
                             </div>
                             <a href="https://github.com/Tanishgol/Invoice" className="btn btn-outline-secondary mt-3">
                                 View Project
@@ -41,10 +42,12 @@ const Work = () => {
                                 The Expense Management System is a comprehensive web application designed to help users track their income, expenses, and budgets effectively.
                             </p>
                             <div className="d-flex flex-wrap gap-2">
-                                <span className="badge bg-primary">HTML</span>
-                                <span className="badge bg-info">CSS</span>
-                                <span className="badge bg-success">Javascript</span>
-                                <span className="badge bg-warning text-dark">Bootstrap 5</span>
+                                <span className="badge" style={{ backgroundColor: "#E44D26", color: "#fff" }}>HTML</span>
+                                <span className="badge" style={{ backgroundColor: "#2965F1", color: "#fff" }}>CSS</span>
+                                <span className="badge" style={{ backgroundColor: "#F7DF1E", color: "#000" }}>JavaScript</span>
+                                <span className="badge" style={{ backgroundColor: "#7952B3", color: "#fff" }}>Bootstrap 5</span>
+                                <span className="badge" style={{ backgroundColor: "#007BFF", color: "#fff" }}>AJAX</span>
+
                             </div>
                             <a href="https://github.com/Tanishgol/Expense-Manager" className="btn btn-outline-secondary mt-3">
                                 View Project
