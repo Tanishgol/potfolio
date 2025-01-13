@@ -24,6 +24,22 @@
     box-shadow: -20px 20px 10px 8px rgb(121, 121, 121);
 }
 
+.flip-animation {
+    display: inline-block;
+    animation: flip360 2s linear infinite;
+}
+
+@keyframes flip360 {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
 .AboutMe {
     color: #333;
 }

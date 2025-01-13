@@ -26,7 +26,7 @@ const Devinfo = () => {
                             </p>
                             <div className="d-flex flex-column flex-lg-row align-items-center align-items-lg-start mb-3">
                                 <div className="info-user-location d-flex align-items-center me-lg-4 mb-3 mb-lg-0">
-                                    <i className="bi bi-geo-alt text-primary me-2" />
+                                    <i className="bi bi-geo-alt text-primary me-2 flip-animation" />
                                     <span className="fw-semibold">Rajkot, Gujarat</span>
                                 </div>
                                 <div className="info-availability d-flex align-items-center">
