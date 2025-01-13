@@ -56,4 +56,4 @@ const Devinfo = () => {
     )
 }
 
-export default Devinfo
+export default Devinfo;
