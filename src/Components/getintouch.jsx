@@ -26,14 +26,14 @@ const Getintouch = () => {
                     <div className="d-flex flex-column align-items-center mt-4">
                         <div className="d-flex align-items-center mb-3 flex-wrap">
                             <i className="fa-solid fa-envelope display-6 me-2"></i>
-                            <span className="display-6 fw-bold" id="email">goltanish2@gmail.com</span>
+                            <span className="display-6 fw-bold text-wrap" id="email">goltanish2@gmail.com</span>
                             <button className="btn btn-secondary btn-sm ms-3 mt-2 mt-sm-0" title="Copy to Clipboard" onClick={() => copyToClipboard('goltanish2@gmail.com')}>
                                 <i className="fa-regular fa-copy"></i>
                             </button>
                         </div>
                         <div className="d-flex align-items-center mb-3 flex-wrap">
                             <i className="fa-solid fa-phone display-6 me-2"></i>
-                            <span className="display-6 fw-bold" id="phone">+91 1234567980</span>
+                            <span className="display-6 fw-bold text-wrap" id="phone">+91 1234567980</span>
                             <button className="btn btn-secondary btn-sm ms-3 mt-2 mt-sm-0" title="Copy to Clipboard" onClick={() => copyToClipboard('+91 1234567980')}>
                                 <i className="fa-regular fa-copy"></i>
                             </button>
