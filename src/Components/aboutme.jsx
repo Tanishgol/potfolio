@@ -16,7 +16,7 @@ const Aboutme = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 mb-md-5 col-sm-12 mb-4 mb-md-0 text-center">
-                            <img className="img-fluid rounded Dev-image-left" src={DevImage} alt="Pic of Tanish" width="100%" />
+                            <img className="img-fluid rounded Dev-image-left" loading="lazy" src={DevImage} alt="Pic of Tanish" width="100%" />
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
                             <h2 className="mb-4 fw-bold text-dark">Curious about me? Here you have it:</h2>
