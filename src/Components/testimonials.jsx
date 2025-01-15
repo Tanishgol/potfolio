@@ -14,7 +14,7 @@ const Testimonials = () => {
                     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         <div className="col">
                             <div className="card border-0 bg-white shadow-sm h-100 text-center p-4">
-                                <img src={Avater} className="rounded-circle mx-auto mb-3" alt="Profile Pic" width="100" height="100" />
+                                <img src={Avater} className="rounded-circle mx-auto mb-3" loading="lazy" alt="Profile Pic" width="100" height="100" />
                                 <div className="card-body">
                                     <blockquote className="blockquote mb-3">
                                         <p>
@@ -29,7 +29,7 @@ const Testimonials = () => {
                         </div>
                         <div className="col">
                             <div className="card border-0 bg-white shadow-sm h-100 text-center p-4">
-                                <img src={Avater} className="rounded-circle mx-auto mb-3" alt="Profile Pic" width="100" height="100" />
+                                <img src={Avater} className="rounded-circle mx-auto mb-3" loading="lazy" alt="Profile Pic" width="100" height="100" />
                                 <div className="card-body">
                                     <blockquote className="blockquote mb-3">
                                         <p>
@@ -44,7 +44,7 @@ const Testimonials = () => {
                         </div>
                         <div className="col">
                             <div className="card border-0 bg-white shadow-sm h-100 text-center p-4">
-                                <img src={Avater} className="rounded-circle mx-auto mb-3" alt="Profile Pic" width="100" height="100" />
+                                <img src={Avater} className="rounded-circle mx-auto mb-3" loading="lazy" alt="Profile Pic" width="100" height="100" />
                                 <div className="card-body">
                                     <blockquote className="blockquote mb-3">
                                         <p>

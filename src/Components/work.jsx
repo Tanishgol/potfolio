@@ -14,7 +14,7 @@ const Work = () => {
                     </div>
                     <div className="row align-items-center mb-5 rounded-3 p-4 shadow">
                         <div className="col-lg-6 mb-3 mb-lg-0">
-                            <img src={Project1} alt="Wingie Project Screenshot" className="img-fluid rounded" />
+                            <img src={Project1} alt="Wingie Project Screenshot" loading="lazy" className="img-fluid rounded" />
                         </div>
                         <div className="col-lg-6">
                             <h3 className="fw-bold">Enhanced Invoice System</h3>
@@ -35,7 +35,7 @@ const Work = () => {
                     </div>
                     <div className="row align-items-center mb-4 rounded-3 p-4 shadow">
                         <div className="col-lg-6 order-lg-2 mb-3 mb-lg-0">
-                            <img src={Project2} alt="Fiskil Project Screenshot" className="img-fluid rounded" />
+                            <img src={Project2} alt="Fiskil Project Screenshot" loading="lazy" className="img-fluid rounded" />
                         </div>
                         <div className="col-lg-6 order-lg-1">
                             <h3 className="fw-bold">Expense-Manager</h3>

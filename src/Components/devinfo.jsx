@@ -47,7 +47,7 @@ const Devinfo = () => {
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 image-column text-center">
-                            <img className="info-image img-fluid rounded Dev-image-right" src={tanishimage} alt="Tanish" width="350px" />
+                            <img className="info-image img-fluid rounded Dev-image-right" loading="lazy" src={tanishimage} alt="Tanish" width="350px" />
                         </div>
                     </div>
                 </div>
