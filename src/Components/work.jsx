@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Styles/globle.css';
 import Project1 from '../Assets/Project-1.png';
 import Project2 from '../Assets/Project-2.jpeg';
 

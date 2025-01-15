@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Styles/globle.css';
 import Avater from '../Assets/avatar-eugen.png';
 
 const Testimonials = () => {

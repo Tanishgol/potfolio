@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../Styles/globle.css';
 
 const Footer = () => {
     return (

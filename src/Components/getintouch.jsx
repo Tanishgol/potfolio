@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Styles/globle.css';
 import toast, { Toaster } from 'react-hot-toast';
 
 function copyToClipboard(text) {
@@ -27,7 +28,8 @@ const Getintouch = () => {
                         <div className="d-flex align-items-center flex-wrap">
                             <i className="fa-solid fa-envelope display-6 me-2"></i>
                             <span className="display-6 fw-bold text-wrap p-3" id="email">goltanish2@gmail.com</span>
-                            <button className="btn btn-secondary btn-sm ms-3 mt-2 mt-sm-0" title="Copy to Clipboard" onClick={() => copyToClipboard('goltanish2@gmail.com')}>
+                            <button className="btn btn-secondary btn-sm ms-3 mt-2 mt-sm-0" title="Copy to Clipboard" 
+                            onClick={() => copyToClipboard('goltanish2@gmail.com')}>
                                 <i className="fa-regular fa-copy"></i>
                             </button>
                         </div>

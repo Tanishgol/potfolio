@@ -35,9 +35,6 @@ const Navbar = () => {
                             </li>
                             <div className="border-start border-secondary border-3 ms-2 ps-2"></div>
                             <li className="nav-item m-1 px-1 fw-semibold">
-                                <i className="bi bi-moon-stars fs-4 m-2"></i>
-                            </li>
-                            <li className="nav-item m-1 px-1 fw-semibold">
                                 <button className="nav-button btn btn-secondary fw-semibold" type="button">Download CV</button>
                             </li>
                         </ul>

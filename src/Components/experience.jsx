@@ -1,5 +1,6 @@
 import React from 'react';
 import DreamSpotLogo from '../Assets/dreamSpot_logo.png';
+import '../Styles/globle.css';
 
 const Experience = () => {
     return (

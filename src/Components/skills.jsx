@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Styles/globle.css';
 import { BiLogoHtml5 } from "react-icons/bi";
 import { BiLogoCss3 } from "react-icons/bi";
 import { BiLogoJavascript } from "react-icons/bi";
