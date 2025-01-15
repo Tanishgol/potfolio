@@ -22,7 +22,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse text-center fs-5" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item m-1 px-1 fw-semibold">
-                                <a className="nav-link active" href="#about">About</a>
+                                <a className="nav-link" href="#about">About</a>
                             </li>
                             <li className="nav-item m-1 px-1 fw-semibold">
                                 <a className="nav-link" href="#work">Work</a>
